@@ -1,0 +1,189 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-size: 18px;
+    font-family: "Hanken Grotesk";
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+}
+.container{
+
+    height:65%;
+    width: 45%;
+   
+    border: none;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.yourResult{
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    flex-direction: column;
+    border: none;
+    border-radius: 5%;
+    
+    color: white;
+}
+
+
+
+#r{
+    width: 100%;
+    color: hsl(241, 100%, 89%);
+    height: 18.75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 1.2em;
+}
+
+#great{
+    width: 100%;
+    color: white;
+    height: 18.75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+    font-size: 1.4em;
+}
+#large{
+    font-size: 3.5em;
+}
+#of{
+    color: hsl(241, 100%, 89%); 
+}
+
+#des{
+    width: 77%;
+    text-align: center;
+    color: hsl(241, 100%, 89%); 
+    font-size: 18px;
+}
+
+.marksCircle{
+
+    height: 175px;
+    width: 175px;
+    border: none;
+    border-radius: 50%;
+    background:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    
+}
+
+.summary{
+    
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    flex-direction: column;
+    
+    
+}
+
+.reaction,.memory,.visual,.verbal{
+    height: 10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-direction: row;
+    border: none;
+    margin:2%;
+    
+    border-radius: 5%;
+    padding: 1%;
+}
+
+.space{
+    height: 100%;
+    width:40%;
+}
+
+.reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%,0.1);
+}
+
+.verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.memory{
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+button{
+    height: 10%;
+    width: 70%;
+    background-color: hsl(224, 30%, 27%);
+    padding: 2%;
+    border-radius: 9999px;
+    border: none;
+    color: white;
+    margin-top: 10%;
+    
+}
+
+button:hover{
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    cursor: pointer;
+}
+
+#marks{
+    color: black;
+}
+#slash{
+    color:  hsl(241, 100%, 89%);
+}
+#headas{
+    color: black;
+    font-size: 25px;
+    text-align: left;
+    align-self: flex-start; 
+    margin: 5%;
+    font-weight: 700;
+}
+
+.attribution{
+   
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color:hsl(241, 81%, 54%);
+    font-size: 15px;
+}
